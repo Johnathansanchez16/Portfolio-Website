@@ -1,0 +1,57 @@
+html, body {
+height: 100%
+margin:0px;
+}
+html{
+overflow:hidden;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+#galaxy {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+}
+.mainpage{
+border-radius:50px;
+overflow:scroll;
+background-color:#a3c9ff;
+height:100vh;
+}
+.image{
+height:100%;
+
+}
+.title{
+font-family: "Bungee Shade", sans-serif;
+font-weight: 400;
+font-style: normal;
+color:black;
+font-size:60px;
+}
+.exit{
+position:fixed;
+height:40px;
+width:40px;;
+background-color:#a3c9ff;
+border-radius:20px;
+left:10px;
+top:10px;
+}
+.fa-house{
+position:fixed;
+left:21px;
+top:20px;
+}
