@@ -1,4 +1,4 @@
-let scale = .36;
+let scale = .66;
     let angle = 180;
     let growing = true;
     const galaxy = document.querySelector('#galaxy');
@@ -8,12 +8,12 @@ let scale = .36;
     function animate() {
         if (growing) {
             scale += scaleStep;
-            if (scale >= .5) {
+            if (scale >= .8) {
                 growing = false;
             }
         } else {
             scale -= scaleStep;
-            if (scale <= .3) {
+            if (scale <= .6) {
                 growing = true;
             }
         }

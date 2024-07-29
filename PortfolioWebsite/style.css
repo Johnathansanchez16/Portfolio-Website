@@ -1,8 +1,6 @@
 html, body {
 height: 100%
 margin:0px;
-}
-html{
 overflow:hidden;
 }
 .background {
@@ -45,7 +43,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 color: white;
 width:230px;;
-font-size: 45px;
+font-size: 4vh;
 font-weight:200;
 margin: 0;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
