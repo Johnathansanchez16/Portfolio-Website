@@ -35,7 +35,9 @@ mask-image: radial-gradient(circle, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 70%);
 transition: transform 10s ease-in-out;
 }
 .title{
-font-family: "Raleway Dots", sans-serif;
+font-family: "Zain", sans-serif;
+font-weight: 700;
+font-style: normal;
 text-align:center;
 position: absolute;
 top: 50%;
