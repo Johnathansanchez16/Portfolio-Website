@@ -5,6 +5,8 @@ margin:0px;
 html{
 overflow:hidden;
 }
+
+
 .background {
     position: absolute;
     top: 0;
@@ -29,9 +31,12 @@ border-radius:50px;
 overflow:scroll;
 background-color:#a3c9ff;
 height:100vh;
+margin:30px;
+padding:20px;
+font-size: 2vh;
 }
 .image{
-height:100%;
+width:85vw;
 
 }
 .title{
@@ -39,7 +44,7 @@ font-family: "Bungee Shade", sans-serif;
 font-weight: 400;
 font-style: normal;
 color:black;
-font-size:60px;
+font-size:4vh;
 }
 .exit{
 position:fixed;
@@ -47,11 +52,12 @@ height:40px;
 width:40px;;
 background-color:#a3c9ff;
 border-radius:20px;
-left:10px;
-top:10px;
+left:60px;
+top:60px;
 }
 .fa-house{
+font-size: 2vh;
 position:fixed;
-left:21px;
-top:20px;
+left:60px;
+top:60px;
 }

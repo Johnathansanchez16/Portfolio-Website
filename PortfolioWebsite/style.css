@@ -29,7 +29,7 @@ height: auto;
 display:flex;
 position: relative;
 border-radius:200px;
-height:50vh;
+height:30vh;
 mask-image: radial-gradient(circle, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 70%);
 -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 70%);
 transition: transform 10s ease-in-out;
@@ -45,14 +45,11 @@ left: 50%;
 transform: translate(-50%, -50%);
 color: white;
 width:230px;;
-font-size: 4vh;
+font-size: 6vh;
 font-weight:200;
 margin: 0;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 pointer-events:none;
-}
-.main-title{
-font-size: 50px;
 }
 .nebula:hover{
 cursor:pointer;

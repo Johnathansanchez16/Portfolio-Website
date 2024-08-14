@@ -25,12 +25,14 @@ width: auto;
 height: auto;
 }
 .mainpage{
-border-radius:50px;
-overflow:scroll;
-background-color:#a3c9ff;
-height:100vh;
-text-align:center;
-}
+    border-radius:50px;
+    overflow:scroll;
+    background-color:#a3c9ff;
+    height:100vh;
+    margin:30px;
+    font-size: 2vh;
+    padding:20px;
+    }
 .image{
 height:100%;
 
@@ -40,19 +42,20 @@ font-family: "Bungee Shade", sans-serif;
 font-weight: 400;
 font-style: normal;
 color:black;
-font-size:60px;
+font-size:4vh;
 }
 .exit{
-position:fixed;
-height:40px;
-width:40px;;
-background-color:#a3c9ff;
-border-radius:20px;
-left:10px;
-top:10px;
-}
-.fa-house{
-position:fixed;
-left:21px;
-top:20px;
-}
+    position:fixed;
+    height:40px;
+    width:40px;;
+    background-color:#a3c9ff;
+    border-radius:20px;
+    left:60px;
+    top:60px;
+    font-size: 2vh;
+    }
+    .fa-house{
+    position:fixed;
+    left:60px;
+    top:60px;
+    }

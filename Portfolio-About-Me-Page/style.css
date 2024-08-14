@@ -25,10 +25,13 @@ width: auto;
 height: auto;
 }
 .mainpage{
+margin:30px;
 border-radius:50px;
 overflow:scroll;
 background-color:#a3c9ff;
 height:100vh;
+font-size: 2vh;
+padding:20px;
 }
 .image{
 border:8px inset white;
@@ -38,7 +41,7 @@ font-family: "Bungee Shade", sans-serif;
 font-weight: 400;
 font-style: normal;
 color:black;
-font-size:70px;
+font-size:4vh;
 }
 .exit{
 position:fixed;
@@ -49,12 +52,21 @@ border-radius:20px;
 left:10px;
 top:10px;
 }
+.exit{
+position:fixed;
+height:40px;
+width:40px;;
+background-color:#a3c9ff;
+border-radius:20px;
+left:60px;
+top:60px;
+font-size: 2vh;
+}
 .fa-house{
 position:fixed;
-left:21px;
-top:20px;
+left:60px;
+top:60px;
 }
-
 
 
 
